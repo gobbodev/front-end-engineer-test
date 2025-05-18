@@ -48,7 +48,7 @@ A aplicação deve permitir que os usuários visualizem apostas esportivas onlin
 - **Gerenciamento de Estado**: Utilização da **Context API** ou uma biblioteca adicional para controle de dados.
 - **API Fetch**: Consumo de dados externos utilizando a **Web Fetch API** para consultas dinâmicas.
 - **Biblioteca de Animação**: Utilização de **framer-motion** ou outras bibliotecas para animações e manipulação de elementos.
-- **Lodash**: Para ordenação e manipulação de listas.
+- **Lodash**: Para ordenação e manipulação de listas. -  *Não implementado devido a vulnerabilidades descobertas frequentemente nessa lib*
 - **Autenticação**: Middleware para proteger e gerenciar o acesso a rotas específicas.
 - **SSR (Server-Side Rendering)**: SSR para busca de dados e otimização do carregamento inicial.
 - **Componentização**: Boas práticas na criação e separação de **Client** e **Server Components**.
