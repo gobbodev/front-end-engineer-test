@@ -13,7 +13,7 @@ export async function getOdds(tournamentId: number): Promise<ServiceResponse<Odd
         const options = {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': '75f878e7a6msh23693ca38cbad84p1cd2d5jsn2fa5bab94a55',
+                'x-rapidapi-key': process.env.RAPIDAPI_KEY!,
                 'x-rapidapi-host': 'odds-feed.p.rapidapi.com'
             }
         };
