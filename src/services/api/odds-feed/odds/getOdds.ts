@@ -1,3 +1,5 @@
+'use server';
+
 import { EventListResponse } from "@/types/events/list";
 import { ServiceResponse } from "@/types/services";
 import { transformEventList } from "./transformers";
