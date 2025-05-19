@@ -123,7 +123,7 @@ export function OddsList() {
             <p className="text-gray-400">Nenhuma odd disponível para esta categoria.</p>
           </div>
         ) : (
-          events.map((odd, index) => <OddCard key={index + odd.homeTeam} {...odd} tournamentId={currentTournamentId} idx={index} />)
+          events.map((odd, index) => <OddCard key={odd.homeTeam + odd.date} {...odd} tournamentId={currentTournamentId} idx={index} />)
         )}
       </div>
     </div>
